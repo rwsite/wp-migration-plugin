@@ -1,8 +1,7 @@
 
 *~
 .DS_Store
-/.idea
-.idea/
+.idea
 logs
 
 *.txt

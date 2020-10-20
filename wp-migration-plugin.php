@@ -43,15 +43,6 @@ class plugin extends WP_Migration
     }
 
     /**
-     * Render html
-     */
-    public function render_interface(){
-        echo '<div class="wrap">';
-        echo '<h2>'. get_admin_page_title() .'</h2>';
-        echo '</div>';
-    }
-
-    /**
      * Run all migration
      *
      * @return array
