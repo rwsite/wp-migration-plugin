@@ -21,16 +21,18 @@ namespace migrations;
 spl_autoload_register(function ($className){
     $prefix = 'migrations';
     if (0 === strpos($className, $prefix)) {
+        $className = str_replace($prefix . '\\', '',$className);
         $path = realpath(__DIR__) . DIRECTORY_SEPARATOR . strtr($className, '\\', DIRECTORY_SEPARATOR) . '.php';
         if (file_exists($path)) {
             include_once $path;
         }
     }
-}, true, true);
+});
 
 
 class plugin extends WP_Migration
 {
+    public $option_name;
     public $capability = 'manage_options';
     public $title;
 
@@ -38,14 +40,6 @@ class plugin extends WP_Migration
     {
         $this->title = __('Migrations', 'migration');
         parent::__construct();
-        // add_action('admin_menu', [$this, 'register_sub_menu']);
-    }
-
-    /**
-     * Register Submenu page
-     */
-    public function register_sub_menu(){
-        add_submenu_page( 'index.php', $this->title, $this->title, $this->capability, $this->option_name, [$this, 'render_interface'] );
     }
 
     /**
