@@ -36,7 +36,7 @@ abstract class WP_Migration implements WP_Migration_Interface
             $this->up();
             $this->down();
             $result[] = $this->name;
-            error_log(sprintf(__('Migration %s complete.','migration'),  $this->name), 'info');
+            error_log(sprintf(__('Migration %s complete.','migration'),  $this->name));
             update_option($this->option_name, json_encode($result, JSON_UNESCAPED_UNICODE), 0);
         }
     }
