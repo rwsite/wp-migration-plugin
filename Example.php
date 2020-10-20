@@ -3,7 +3,7 @@
  * Example Wordpress Migration
  */
 
-namespace iiko\migrations;
+namespace migrations;
 
 
 final class Example extends WP_Migration
