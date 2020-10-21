@@ -51,6 +51,9 @@ class plugin extends WP_Migration
         foreach (glob(__DIR__ . '/*.php') as $file) {
             require_once $file;
         }
+        foreach (glob(__DIR__ . '/*/*.php') as $file) {
+            require_once $file;
+        }
    }
 }
 
