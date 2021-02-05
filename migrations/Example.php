@@ -5,7 +5,7 @@
 
 namespace migrations;
 
-final class Example extends WP_Migration
+class Example extends WP_Migration
 {
     public function up()
     {

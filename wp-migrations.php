@@ -10,7 +10,7 @@
  * Tags: migration, wp
  * Requires at least: 4.6
  * Tested up to: 5.6
- * Requires PHP: 7.2
+ * Requires PHP: 7.0
  *
  * Text Domain: wp-migration
  * Domain Path: /languages/

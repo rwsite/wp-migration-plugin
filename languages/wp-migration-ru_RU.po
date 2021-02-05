@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Migrations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-03 10:26+0000\n"
+"PO-Revision-Date: 2021-02-03 10:29+0000\n"
+"Last-Translator: Aleksey Tihomirov\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: wp-migration"
+
+#. Author of the plugin
+msgid "Aleksey Tikhomirov <alex@rwsite.ru>"
+msgstr "Алексей Тихомиров <alex@rwsite.ru>"
+
+#: template/interface.php:130
+msgid "completed successfully!"
+msgstr "успешно завершена!"
+
+#: wp-migrations.php:57
+msgid "DB Migrations"
+msgstr "БД Миграции"
+
+#. URI of the plugin
+msgid "http://rwsite.ru/"
+msgstr "http://rwsite.ru/"
+
+#. Author URI of the plugin
+msgid "https://rwsite.ru/"
+msgstr "https://rwsite.ru/"
+
+#: template/interface.php:102
+msgid "Loading ... This may take a long time. Don`t refresh this page."
+msgstr ""
+"Загрузка ... Это может занять много времени. Не обновляйте эту страницу."
+
+#: template/interface.php:130
+msgid "Migration"
+msgstr "Миграция"
+
+#: WP_Migration.php:72
+#, php-format
+msgid "Migration %s complete."
+msgstr "Миграция %s выполнена."
+
+#. Description of the plugin
+msgid "Plugin for migrations DB"
+msgstr "Плагин для миграций БД"
+
+#. Name of the plugin
+msgid "WP Migrations"
+msgstr "WP Миграции"

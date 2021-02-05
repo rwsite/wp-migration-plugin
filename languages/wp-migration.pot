@@ -1,0 +1,58 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Migrations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-03 10:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: wp-migration"
+
+#. Author of the plugin
+msgid "Aleksey Tikhomirov <alex@rwsite.ru>"
+msgstr ""
+
+#: template/interface.php:130
+msgid "completed successfully!"
+msgstr ""
+
+#: wp-migrations.php:57
+msgid "DB Migrations"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://rwsite.ru/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://rwsite.ru/"
+msgstr ""
+
+#: template/interface.php:102
+msgid "Loading ... This may take a long time. Don`t refresh this page."
+msgstr ""
+
+#: template/interface.php:130
+msgid "Migration"
+msgstr ""
+
+#: WP_Migration.php:72
+#, php-format
+msgid "Migration %s complete."
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin for migrations DB"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Migrations"
+msgstr ""
