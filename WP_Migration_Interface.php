@@ -10,5 +10,4 @@ interface WP_Migration_Interface
 {
     public function up();
     public function down();
-
 }
